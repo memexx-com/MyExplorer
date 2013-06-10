@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.myexplorer.MainActivity.ListViewItem"/>
+<fullyQualifiedTypeName name="com.example.myexplorer.Item"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="android.text.format.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="com.example.myexplorer.MainActivity"/>
+<fullyQualifiedTypeName name="com.example.myexplorer.R.layout"/>
+<fullyQualifiedTypeName name="com.example.myexplorer.CustomListViewAdapter"/>
+<fullyQualifiedTypeName name="com.example.myexplorer.R.id"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+</qualifiedTypeNameHistroy>

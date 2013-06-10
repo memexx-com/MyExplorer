@@ -1,0 +1,99 @@
+package com.example.myexplorer;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.AdapterView.OnItemClickListener;
+
+public class MainActivity extends Activity {
+
+	ListView lv;
+	List<ListViewItem> items;
+	CustomListViewAdapter adapter;
+
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        lv = (ListView) findViewById(R.id.listView1);
+        items  = new ArrayList<MainActivity.ListViewItem>();
+       
+        
+        adapter = new CustomListViewAdapter(this, items);
+        lv.setAdapter(adapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    class ListViewItem {
+        private String name;
+        private String data;
+        private String date;
+        private String path;
+        private String image;
+       
+        public ListViewItem(String n,String d, String dt, String p, String img)
+        {
+                name = n;
+                data = d;
+                date = dt;
+                path = p;
+                image = img;           
+        }
+        public String getName()
+        {
+                return name;
+        }
+        public String getData()
+        {
+                return data;
+        }
+        public String getDate()
+        {
+                return date;
+        }
+        public String getPath()
+        {
+                return path;
+        }
+        public String getImage() {
+                return image;
+        }
+}
+    
+
+
+
+
+
+}
